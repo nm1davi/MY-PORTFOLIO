@@ -17,7 +17,7 @@ Este es mi portafolio personal donde muestro mis habilidades y proyectos como de
 ## Instalación y Uso
 1. Clona el repositorio:
     ```sh
-    git clone https://github.com/tu-usuario/tu-repositorio.git
+    git clone https://github.com/nm1davi/MY-PORTFOLIO.git
     ```
 2. Navega a la carpeta del frontend y del backend e instala las dependencias:
     ```sh
