@@ -1,0 +1,111 @@
+/* footer.css */
+.footer-container-main {
+      max-width: 120rem;
+      background-color: black;
+      color: #fff;
+    }
+    
+    .footer-container {
+      max-width: 120rem;
+      margin: auto;
+      width: 92%;
+      font-family: "Raleway", sans-serif;
+      font-style: normal;
+    }
+    
+    .footer-up {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      padding: 4rem 0;
+      color: #fff;
+    }
+    
+    .footer-up-row1 {
+      padding: 1rem 1rem;
+      text-transform: uppercase;
+    }
+    
+    .icons-social {
+      margin-top: 1.5rem;
+    }
+    .icons-social a {
+      text-decoration: none;
+      margin-right: 1rem;
+      width: 2.5rem;
+    }
+    .icons-social a i {
+      font-size: 2rem;
+    }
+    .icons-social a:visited {
+      color: inherit;
+    }
+    
+    .footer-up-row2 {
+      width: 40%;
+      max-width: 50rem;
+      padding: 1rem 1rem;
+    }
+    .footer-up-row2 p {
+      margin-top: 1.5rem;
+      color: #eee;
+      font-size: 1rem;
+      line-height: 1.1;
+      letter-spacing: 0.01rem;
+    }
+    
+    .footer-up-row2-heading {
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    
+    .footer-low {
+      line-height: 1.7;
+      padding: 1.5rem 0;
+      border-top: 1px solid #444;
+      color: #eee;
+      font-size: 0.9rem;
+      text-align: left;
+      text-align: center;
+    }
+    .footer-low a {
+      text-decoration: underline;
+      color: #fff;
+      font-weight: bold;
+    }
+    
+    /* Media queries para responsividad */
+    @media (max-width: 1024px) {
+      .footer-up {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .footer-up-row1, .footer-up-row2 {
+        width: 100%;
+        padding: 1rem 0;
+      }
+      .footer-up-row2 {
+        width: 80%;
+      }
+    }
+    
+    @media (max-width: 430px) {
+      .footer-up {
+        padding: 2rem 0;
+      }
+      .footer-up-row1, .footer-up-row2 {
+        padding: 0.5rem 0;
+      }
+      .footer-up-row2 p {
+        font-size: 0.9rem;
+      }
+      .footer-up-row2-heading {
+        font-size: 1.3rem;
+      }
+      .footer-low {
+        font-size: 0.8rem;
+      }
+    }
+    

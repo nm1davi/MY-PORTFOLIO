@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "HARDWARE STORE LANDING PAGE",
+    "description": "It was my first project, it was a website for an industrial hardware store where information about some of the business's products is displayed.",
+    "img": "PROYECTO-FERRETERIA1.png"
+  },
+  {
+    "id": "2",
+    "name": "ECOMMERCE COFFEE",
+    "description": "This project was a website to sell coffee online to the public. It was a simulation of an E-commerce. In this project mi focus was on the JavaScript",
+    "img": "PROYECTO-CAFE.png"
+  },
+  {
+    "id": "3",
+    "name": "ECOMMERCE WINE",
+    "description": "This project was a website to sell wine online to the public. It was a simulation of an E-commerce. In this project mi focus was on the React",
+    "img": "ECOMMERCE-VINO.png"
+  },
+  {
+    "id": "4",
+    "name": "INDUSTRIAL HARDWARE ECOMMERCE",
+    "description": "This project was a website to sell industrial tools and machinery online to the public. It was a simulation of an E-commerce. In this project mi focus was on the FullStack programming",
+    "img": "PROYECTO-ECOMMERCE-FULLSTACK.png"
+  },
+  {
+    "id": "5",
+    "name": "MY PORTFOLIO",
+    "description": "This project is about my portfolio, where all the projects I have done are found.",
+    "img": "PROYECTO-PORTFOLIO.png"
+  }
+]

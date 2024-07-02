@@ -1,0 +1,213 @@
+@import './variables.scss';
+
+.projectn {
+  background-color: #f7f7f7;
+  font-family: $fuenteRealway;
+}
+
+.project {
+  background-image: url("../img/FONDO1.png");
+  background-repeat: no-repeat;
+  background-size: cover; /* Hace que la imagen ocupe todo el contenedor */
+  background-position: center; /* Centra la imagen de fondo */
+  width: 100%; /* Asegura que la sección ocupe todo el ancho */
+  height: 80vh; /* Hace que la sección ocupe toda la altura visible de la ventana */
+  flex-direction: column;
+  justify-content: center; /* Centra el contenido verticalmente */
+  align-items: center; /* Centra el contenido horizontalmente */
+  position: relative;
+}
+
+.project-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90rem;
+  width: 70%;
+}
+
+.heading-primary-project {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #00315d;
+}
+
+.profile-info-project {
+  margin: 3rem auto 0 auto;
+  max-width: 80rem;
+}
+
+.text-primary-project {
+  color: #374955;
+  font-size: 1rem;
+  text-align: center;
+  width: 100%;
+  line-height: 1.6;
+  font-family: $fuenteRealway;
+}
+
+.button-primary-project {
+  padding: 1.5rem 1rem;
+  font-size: 1rem;
+  background: #00315d;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s;
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+    &:visited {
+      color: #fff;
+      background: #00315d;
+      text-decoration: none;
+    }
+  }
+}
+
+.button-primary-project:hover {
+  transform: translateY(-3px);
+}
+
+.project-n-container {
+  max-width: 120rem;
+  margin: auto;
+  width: 92%;
+}
+
+.project-details-n-container {
+  padding: 4rem 0;
+  max-width: 90rem;
+  margin: auto;
+}
+
+.project-details-n-container-img {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 4rem;
+
+  img {
+    width: 840px;
+    height: 420px;
+    object-fit: contain;
+  }
+}
+
+.project-details-n-container-description-main {
+  width: 90%;
+  max-width: 70rem;
+  margin: auto;
+  align-items: center;
+}
+
+.project-details-n-container-description {
+  margin: 0 0 4rem 0;
+}
+
+.project-details-n-container-description-title {
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  font-family: $fuenteRealway;
+}
+
+.project-details-n-container-description-p {
+  font-size: 0.8rem;
+  line-height: 1.7;
+  color: #553737;
+  margin-bottom: 2rem;
+  font-family: $fuenteRealway;
+}
+
+.project-details-tools-used {
+  margin: 0 0 4rem 0;
+}
+
+.project-details-links {
+  margin: 0 0;
+
+  li {
+    margin-right: 2rem;
+  }
+}
+
+.keyword{
+  color: #00315d;
+}
+
+/* Responsive Styles */
+/* For 1024x1366 resolution */
+@media (max-width: 1024px) {
+      .project-container {
+        width: 80%;
+      }
+    
+      .heading-primary-project {
+        font-size: 1.4rem;
+      }
+    
+      .text-primary-project {
+        font-size: 0.95rem;
+      }
+    
+      .button-primary-project {
+        padding: 1.2rem 0.9rem;
+        font-size: 0.95rem;
+      }
+    
+      .project-details-n-container-img img {
+        width: 700px;
+        height: 350px;
+      }
+    
+      .project-details-n-container-description-title {
+        font-size: 1.3rem;
+      }
+    
+      .project-details-n-container-description-p {
+        font-size: 0.75rem;
+      }
+    }
+
+/* For 430x932 resolution */
+@media (max-width: 430px) {
+  .project-container {
+    width: 90%;
+  }
+
+  .heading-primary-project {
+    font-size: 1.2rem;
+  }
+
+  .text-primary-project {
+    font-size: 0.9rem;
+  }
+
+  .button-primary-project {
+    padding: 1rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .project-details-n-container-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .project-details-n-container-description-title {
+    font-size: 1.2rem;
+  }
+
+  .project-details-n-container-description-p {
+    font-size: 0.7rem;
+  }
+}
+
+
