@@ -7,7 +7,7 @@ function Footer() {
   const actualYear = date.getFullYear();
   const handleWhatsapp = async () => {
     try {
-      const response = await axios.get("http://localhost:8080/api/number");
+      const response = await axios.get("https://backend-portfolio-75uz.onrender.com/api/number");
       const link = response.data.whatsappLink;
       window.open(link, "_blank");
     } catch (error) {

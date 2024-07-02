@@ -22,7 +22,7 @@ function Main() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    axios.post('http://localhost:8080/api/send-mail', formData)
+    axios.post('https://backend-portfolio-75uz.onrender.com/api/send-mail', formData)
       .then((response) => {
         MySwal.fire({
           title: 'Email sent successfully',
