@@ -15,7 +15,7 @@ app.use(express.static(path.join(__dirname, '../../FRONTEND/build')));
 
 app.use('/api', nodemailerRouter, whatsappRouter);
 app.get('*', (req, res) => {
-  res.sendFile(path.resolve(__dirname, '../../Frontend/build', 'index.html'));
+  res.sendFile(path.resolve(__dirname, '../../FRONTEND/build', 'index.html'));
 });
 
 app.use((error, req, res, next) => {

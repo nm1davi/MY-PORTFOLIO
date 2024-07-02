@@ -13,7 +13,7 @@ function Project5() {
             </p>
           </div>
           <div className="button-container">
-          <li className="button-primary-project" ><a target='_blank' rel='noreferrer' href='#'>PROJECT LINK</a></li>
+          <li className="button-primary-project" ><a target='_blank' rel='noreferrer' href='https://github.com/nm1davi/MY-PORTFOLIO.git'>PROJECT LINK</a></li>
           </div>
         </div>
             </div>
@@ -56,7 +56,7 @@ function Project5() {
                               </div>
                               <div className='project-details-links'>
                               <h2 className='project-details-n-container-description-title'>See Live</h2>
-                              <li className="button-primary-project" ><a target='_blank' rel='noreferrer' href='#'>PROJECT LINK</a></li>
+                              <li className="button-primary-project" ><a target='_blank' rel='noreferrer' href='https://github.com/nm1davi/MY-PORTFOLIO.git'>PROJECT LINK</a></li>
                               <li className="button-primary-project" ><a rel='noreferrer' href='/'>HOME</a></li>
                               </div>
                         </div>

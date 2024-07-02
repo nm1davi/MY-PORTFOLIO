@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node .",
-    "dev": "nodemon ."
+    "dev": "nodemon --exec node -r dotenv/config ."
   },
   "keywords": [],
   "author": "Coder House",
